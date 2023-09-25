@@ -1,0 +1,48 @@
+{
+  "name": "vue-use-measure",
+  "version": "1.0.1",
+  "author": "Gilad Shohat",
+  "description": "measure view bounds",
+  "homepage": "https://github.com/gshohat/vue-use-measure#readme",
+  "license": "MIT",
+  "main": "./dist/use-measure.umd.js",
+  "module": "./dist/use-measure.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/use-measure.es.js",
+      "require": "./dist/use-measure.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "path": "^0.12.7",
+    "vite": "^4.4.6"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component",
+    "vue-component",
+    "use",
+    "measure",
+    "bounds",
+    "hooks"
+  ]
+}
+
+
+
+
+
