@@ -20,9 +20,6 @@ onMounted(() => {
   let elementRelativeBoundaries = useMeasure(element.value);
   //todo elementRelativeBoundaries.top, elementRelativeBoundaries.left 
 });
-
-
-
 </script>
 
 
