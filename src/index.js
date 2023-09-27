@@ -1,3 +1,5 @@
-import UseMeasure from './components/UseMeasure.vue';
+import {useMeasure} from './composables/useMeasure';
 
-export default UseMeasure;
+export {
+    useMeasure,
+}
